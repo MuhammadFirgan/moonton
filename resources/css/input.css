@@ -1,0 +1,14 @@
+.input-error {
+    @apply ring ring-red-600;
+}
+
+.input-primary {
+    @apply focus:bg-form-bg bg-form-bg focus:outline-alerage focus:outline-none;
+}
+
+.input-primary-outline {
+    @apply bg-[#fff] focus:bg-white border-alterage focus:border-alterage,
+    @apply file:bg-alterage file-white file:rounded-md file:p-2;
+}
+
+
